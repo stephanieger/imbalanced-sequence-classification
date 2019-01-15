@@ -9,7 +9,7 @@ by Stephanie Ger and Diego Klabjan.
 * ADASYN with Autoencoder Models
 
 ## Data 
-Models were evaluated on two public datasets and these datasets are available at ["LINK HERE"](https:put-link-here.com).
+Models were evaluated on two public datasets and these datasets are available ["here"](https://northwestern.box.com/s/lt1mkyjhbl0ksq21y1m0o9qpkd6g5ib5).
 Each .zip file contains the ensembled training data, validation and test data. Minority and majority data is also 
 included to train GAN and autoencoder models for the oversampling methods described in the paper. All data files are 
 stored as numpy arrays.
