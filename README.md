@@ -2,6 +2,9 @@ This repository contains implementations of the models discussed in the paper
 ["Autoencoders and Generative Adversarial Networks for Anomaly Detection for Sequences"](https://arxiv.org/abs/1901.02514)
 by Stephanie Ger and Diego Klabjan. 
 
+## Dependencies
+Tensorflow 1.12.0 (and all dependencies) Keras 2.1.5 (and all dependencies)
+
 ## Table of Contents
 * Data
 * Baseline Models
