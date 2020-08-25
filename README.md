@@ -2,6 +2,9 @@ This repository contains implementations of the models discussed in the paper
 ["Autoencoders and Generative Adversarial Networks for Anomaly Detection for Sequences"](https://arxiv.org/abs/1901.02514)
 by Stephanie Ger and Diego Klabjan. 
 
+## Dependencies
+Tensorflow 1.12.0 (and all dependencies) Keras 2.1.5 (and all dependencies)
+
 ## Table of Contents
 * Data
 * Baseline Models
@@ -9,7 +12,7 @@ by Stephanie Ger and Diego Klabjan.
 * ADASYN with Autoencoder Models
 
 ## Data 
-Models were evaluated on two public datasets and these datasets are available [here](https://northwestern.box.com/s/lt1mkyjhbl0ksq21y1m0o9qpkd6g5ib5). The file norm-sentiment-0.01.tar.gz refers to the sentiment dataset with 1% imbalance and the norm-sentiment-0.05.tar.gz is the sentiment dataset with 5% imbalance. Each .zip file contains the ensembled training data, validation and test data. Minority and majority data is also included to train GAN and autoencoder models for the oversampling methods described in the paper. All data files are stored as numpy arrays.
+Models were evaluated on two public datasets and these datasets are available [here](https://northwestern.box.com/s/lt1mkyjhbl0ksq21y1m0o9qpkd6g5ib5). The file norm-sentiment-0.01.tar.gz refers to the sentiment dataset with 1% imbalance and the norm-sentiment-0.05.tar.gz is the sentiment dataset with 5% imbalance. The files with power in the filename contain the power datasets. We provide ensembled power datasets with 5 different seeds. Each .zip file contains the ensembled training data, validation and test data. Minority and majority data is also included to train GAN and autoencoder models for the oversampling methods described in the paper. All data files are stored as numpy arrays. 
 
 ## Baseline Models
 The baseline model is run using the run_seq2one.py or run_seq2seq.py scripts depending on if the label vector is a 
